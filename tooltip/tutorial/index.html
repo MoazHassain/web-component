@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="">
+</head>
+
+<style>
+    *
+    {
+        font-family: "poppins",sans-serif;
+    }
+    .container
+    {
+        margin-top: 50px;
+        /* color: rgb(251, 251, 251); */
+    }
+</style>
+
+<body>
+    <div class="container">
+        <p>this is my 
+            <pop-up tool_bgcolor="rgb(251, 251, 0)" tool_font="rgb(59, 59, 59)">
+                <span slot="message">my web component</span>
+            </pop-up>
+             web component
+            <pop-up><span slot="message">tutorial</span></pop-up>
+        </p>
+    </div>
+</body>
+<script src="./js/popup.js"></script>
+</html>

@@ -1,0 +1,21 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "main.scss",
+        "abstracts/all.scss",
+        "abstracts/_mixins.scss",
+        "abstracts/_variables.scss",
+        "components/all.scss",
+        "components/_buttons.scss",
+        "components/_inputs.scss",
+        "core/all.scss",
+        "core/_reset.scss",
+        "core/_typography.scss",
+        "layout/all.scss",
+        "layout/_header.scss",
+        "layout/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
