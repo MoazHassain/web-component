@@ -1,0 +1,102 @@
+.btn {
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-family: "hind", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #ECECEC;
+  color: #345D66;
+  width: 100%;
+  padding: 8px 15px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #fff;
+}
+
+.card {
+  margin: 0 auto;
+  width: 390px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1.2fr;
+      grid-template-columns: 1fr 1.2fr;
+  grid-gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  padding: 30px;
+  color: #E1E1E1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.card .img {
+  margin-left: -70px;
+  height: 100%;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.card .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card .info .title {
+  margin-bottom: 5px;
+}
+
+.card .info .text {
+  line-height: 1.4em;
+}
+
+.card .info .collection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  grid-column-gap: 5px;
+  grid-row-gap: 8px;
+  margin: 10px 0;
+}
+
+.card .info .collection .btn {
+  text-transform: uppercase;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 4px 8px;
+  border: 1px solid #E1E1E1;
+}
+
+.card .info a.btn button {
+  margin-top: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=main.css.map */

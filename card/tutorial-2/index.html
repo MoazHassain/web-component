@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Component Example</title>
+</head>
+<style>
+    /* body
+    {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    } */
+    h3
+    {
+        color: aqua;
+        font-size: 28px;
+    }
+</style>
+<body>
+    <h3>hello!</h3>
+    <user-card name="Moaz Hassain" avater="./img/back6.png">
+        <div slot="phone">333-555</div>
+        <div slot="email">moazhassain@gmail.com</div>
+    </user-card>
+    <user-card name="mostain"></user-card>
+</body>
+<script src="./user-card.js"></script>
+</html>

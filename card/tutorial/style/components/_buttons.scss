@@ -1,0 +1,24 @@
+.btn 
+{
+    cursor: pointer;
+}
+button
+{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-family: "hind", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #ECECEC;
+    color: #345D66;
+    width: 100%;
+    padding: 8px 15px;
+    transition: 0.3s ease-in-out;
+
+    &:hover
+    {
+        background-color: #fff;
+        
+    }
+}

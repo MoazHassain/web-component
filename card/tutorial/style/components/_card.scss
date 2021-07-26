@@ -1,0 +1,69 @@
+.card
+{
+
+    margin: 0 auto;
+    width: 390px;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    grid-gap: 20px;
+    align-items: center;
+    background-color: rgba($color: #FFFFFF, $alpha: 0.2);
+    backdrop-filter: blur(10px);
+    padding: 30px; 
+    color: #E1E1E1;
+    transition: 0.3s ease-in-out;
+    .img 
+    {
+        margin-left: -70px;
+        height: 100%;
+        transform-origin: left;
+        transition: 0.5s ease-in-out;
+        img 
+        {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .info
+    {
+        .title 
+        {
+            margin-bottom: 5px;
+        }
+        .text 
+        {
+            line-height: 1.4em;
+            
+        }
+        .collection 
+        {
+            display: flex;
+            flex-wrap:wrap;
+            grid-column-gap: 5px;
+            grid-row-gap: 8px;
+            margin: 10px 0;
+            .btn 
+            {
+                text-transform: uppercase;
+                width: fit-content;
+                padding: 4px 8px;
+                border: 1px solid #E1E1E1;
+                // margin: 5px 5px 5px 0px;
+                
+            }
+        }
+        a.btn button 
+        {
+            margin-top: 5px;
+        }
+    }
+    // &:hover 
+    // {
+    //     .img 
+    //     {
+
+    //         // transform: rotateY(90deg) scaleY(1.05);
+    //     }
+    // }
+}

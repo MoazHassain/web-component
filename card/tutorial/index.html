@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Rasa:300,regular,500,600,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Hind:300,regular,500,600,700" rel="stylesheet" />
+    
+</head>
+<style>
+    /* *
+    {
+        font-family: "hind", sans-serif;
+    } */
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    p 
+    {
+        font-family: "hind", sans-serif;
+    }
+    .card-container
+    {
+        background-image: url(./img/bg-img.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px;
+        
+    }
+    
+</style>
+<body>
+    <div class="card-container">
+        <custom-card>
+            <span slot="title">Men's Clothes</span>
+            <span slot="block-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna posuere in eget sagittis lorem. Viverra neque at eu semper luctus montes, facilisi platea.</span>
+        </custom-card>
+    </div>
+</body>
+<script src="./js/card.js"></script>
+</html>
